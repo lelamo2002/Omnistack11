@@ -1,0 +1,64 @@
+.register-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  
+  
+  margin: 0 auto;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.register-container .content {
+  
+  height: 577px;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+  padding: 96px;
+  display: flex;
+}
+
+.register-container .content section h1 {
+  font-size: 36px;
+  
+  margin-top: 64px;
+  
+}
+.register-container .content section {
+  margin-right: 96px;
+}
+.register-container .content section p{
+  font-size: 18px;
+  line-height: 28px;
+  color: #737380;
+  margin-top: 32px;
+  text-justify: distribute;
+  width: 384px;
+  
+}
+
+.register-container .content section a{
+  display: flex;
+  margin-top: 84px;
+  height:18px;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #41414d;
+  transition: 0.2s;
+}
+
+.register-container .content form .input-group {
+  display: flex;
+}
+
+.register-container .content form input {
+  margin-bottom: 8px;
+}
+.register-container .content form input::placeholder {
+  color: #A8A8B3;
+}

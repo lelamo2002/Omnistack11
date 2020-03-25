@@ -1,0 +1,101 @@
+.incidentRegister-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  
+  
+  margin: 0 auto;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.incidentRegister-container .content {
+  
+  height: 577px;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+  padding: 96px;
+  display: flex;
+}
+
+.incidentRegister-container .content section h1 {
+  font-size: 36px;
+  
+  margin-top: 64px;
+  
+}
+.incidentRegister-container .content section {
+  margin-right: 96px;
+}
+.incidentRegister-container .content section p{
+  font-size: 18px;
+  line-height: 28px;
+  color: #737380;
+  margin-top: 32px;
+  text-justify: distribute;
+  width: 384px;
+  
+}
+
+.incidentRegister-container .content section a{
+  display: flex;
+  margin-top: 84px;
+  height:18px;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #41414d;
+  transition: 0.2s;
+}
+
+.incidentRegister-container .content form .button-group {
+  display: flex;
+  
+}
+
+.incidentRegister-container .content form .button-group .cancel {
+  text-align: center;
+  border: 1px solid #e02041;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.incidentRegister-container .content form .button-group .cancel {
+  width: 250px;
+  height: 60px;
+  background: #f0f0f5;
+  border: 1px solid #DCDCE6;
+  border-radius: 8px;
+  color: #41414d;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter;
+  margin-right: 17px;
+}
+
+
+
+.incidentRegister-container .content form input,textarea {
+  margin-bottom: 8px;
+}
+.incidentRegister-container .content form input::placeholder {
+  color: #A8A8B3;
+}
+
+.incidentRegister-container .content form textarea::placeholder {
+  color: #A8A8B3;
+  margin-top: 10px;
+}
+
+.incidentRegister-container .content form .description {
+  height: 175px;
+}
