@@ -56,18 +56,18 @@ const ongId = localStorage.getItem('ongId')
           <input required 
             placeholder="Título do caso"
             value={title}
-            onchange={e => setTitle(e.target.value)}
+            onChange={e => setTitle(e.target.value)}
             />
           <textarea className="description" required 
             placeholder="Descrição"
             value={description}
-            onchange={e => setDescription(e.target.value)}
+            onChange={e => setDescription(e.target.value)}
             />
           
           <input required 
             placeholder="Valor em reais"
             value={value}
-            onchange={e => setValue(e.target.value)}
+            onChange={e => setValue(e.target.value)}
             />
 
           <div className="button-group">

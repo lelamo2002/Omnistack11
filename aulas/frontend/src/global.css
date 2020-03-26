@@ -32,8 +32,7 @@ form input {
 
 form textarea {
   width: 100%;
-  min-width: 448px;
-  max-width: 448px;
+  resize: none;
   min-height: 175px;
   max-height: 175px;
   height: 60px;
